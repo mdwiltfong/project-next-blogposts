@@ -17,6 +17,13 @@ export default function () {
           <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between">
               <h1 className="text-3xl font-bold leading-tight text-gray-900">
+              <p>
+  <Link href="/">
+    <p className="underline cursor-pointer mt-2">
+      <a>Back</a>
+    </p>
+  </Link>
+</p>
                 Add new blog
               </h1>
             </div>
