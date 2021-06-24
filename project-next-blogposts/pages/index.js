@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Parser from "rss-parser" //turns RSS XML into JS objects
+import Link from "next/link"
 
 export default function Home(props) {
   return (
